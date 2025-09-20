@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EUCArden.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\EUCArdenEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\EUCArden.init.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\MyActorTest.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\EUCArden.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\MyActorTest.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\PerModuleInline.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\Default.rc2.res"
+/OUT:"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCArden2025\EUCArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\EUCArden\UnrealEditor-EUCArden.lib"
