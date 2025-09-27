@@ -11,6 +11,7 @@
     <None Include="..\..\Source\EUCArdenEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +33,18 @@
     <Filter Include="Source\EUCArden">
       <UniqueIdentifier>{3E773E27-509B-38EC-BBBC-D2415951F8E9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\EUCArden\Car.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\Car.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\CarModel.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\CarModel.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
     <None Include="..\..\Source\EUCArden\EUCArden.Build.cs">
       <Filter>Source\EUCArden</Filter>
     </None>
@@ -45,6 +58,12 @@
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\MyActorTest.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\Vehicle.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\Vehicle.h">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
   </ItemGroup>
