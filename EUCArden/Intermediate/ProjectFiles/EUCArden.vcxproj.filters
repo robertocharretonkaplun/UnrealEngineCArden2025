@@ -60,6 +60,18 @@
     <ClCompile Include="..\..\Source\EUCArden\MyActorTest.h">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\PlatformActor.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\PlatformActor.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\TransformModifier.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\TransformModifier.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\Vehicle.cpp">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
