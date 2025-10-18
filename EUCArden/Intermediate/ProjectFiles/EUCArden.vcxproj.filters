@@ -66,6 +66,12 @@
     <ClCompile Include="..\..\Source\EUCArden\PlatformActor.h">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\Temperatura.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\Temperatura.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\TransformModifier.cpp">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
