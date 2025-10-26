@@ -60,6 +60,12 @@
     <ClCompile Include="..\..\Source\EUCArden\MyActorTest.h">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\MyCharacterInput.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\MyCharacterInput.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\PlatformActor.cpp">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>

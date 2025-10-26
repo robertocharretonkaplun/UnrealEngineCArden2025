@@ -16,50 +16,9 @@ EUCARDEN_API UClass* Z_Construct_UClass_AMyActorTest_NoRegister();
 UPackage* Z_Construct_UPackage__Script_EUCArden();
 // End Cross Module References
 
-// Begin Class AMyActorTest Function DemostrateFundamentals
-struct Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "MyActorTest" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Ejemplo de una funcion publica\n" },
-#endif
-		{ "ModuleRelativePath", "MyActorTest.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Ejemplo de una funcion publica" },
-#endif
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyActorTest, nullptr, "DemostrateFundamentals", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(AMyActorTest::execDemostrateFundamentals)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->DemostrateFundamentals();
-	P_NATIVE_END;
-}
-// End Class AMyActorTest Function DemostrateFundamentals
-
 // Begin Class AMyActorTest
 void AMyActorTest::StaticRegisterNativesAMyActorTest()
 {
-	UClass* Class = AMyActorTest::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "DemostrateFundamentals", &AMyActorTest::execDemostrateFundamentals },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AMyActorTest);
 UClass* Z_Construct_UClass_AMyActorTest_NoRegister()
@@ -103,10 +62,6 @@ struct Z_Construct_UClass_AMyActorTest_Statics
 	static const UECodeGen_Private::FStrPropertyParams NewProp_nombre;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
-	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMyActorTest_DemostrateFundamentals, "DemostrateFundamentals" }, // 1083987685
-	};
-	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyActorTest>::IsAbstract,
 	};
@@ -137,11 +92,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AMyActorTest_Statics::C
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	FuncInfo,
+	nullptr,
 	Z_Construct_UClass_AMyActorTest_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	UE_ARRAY_COUNT(FuncInfo),
+	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AMyActorTest_Statics::PropPointers),
 	0,
 	0x009000A4u,
@@ -167,10 +122,10 @@ AMyActorTest::~AMyActorTest() {}
 struct Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCArden2025_EUCArden_Source_EUCArden_MyActorTest_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyActorTest, AMyActorTest::StaticClass, TEXT("AMyActorTest"), &Z_Registration_Info_UClass_AMyActorTest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyActorTest), 364538507U) },
+		{ Z_Construct_UClass_AMyActorTest, AMyActorTest::StaticClass, TEXT("AMyActorTest"), &Z_Registration_Info_UClass_AMyActorTest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyActorTest), 30494310U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCArden2025_EUCArden_Source_EUCArden_MyActorTest_h_1591066763(TEXT("/Script/EUCArden"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCArden2025_EUCArden_Source_EUCArden_MyActorTest_h_1732214726(TEXT("/Script/EUCArden"),
 	Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCArden2025_EUCArden_Source_EUCArden_MyActorTest_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCArden2025_EUCArden_Source_EUCArden_MyActorTest_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

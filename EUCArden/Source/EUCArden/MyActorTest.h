@@ -34,6 +34,6 @@ public:
 	FString nombre;
 
 	// Ejemplo de una funcion publica
-	UFUNCTION(BlueprintCallable, Category = "MyActorTest")
-	void DemostrateFundamentals();
+	//UFUNCTION(BlueprintCallable, Category = "MyActorTest")
+	//void DemostrateFundamentals();
 };

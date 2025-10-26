@@ -12,7 +12,7 @@ AMyActorTest::AMyActorTest()
 	edad = 26;
 	esInstructor = true;
 	nombre = "Roberto Charreton";
-	DemostrateFundamentals();
+	//DemostrateFundamentals();
 }
 
 // Called when the game starts or when spawned
@@ -29,31 +29,31 @@ void AMyActorTest::Tick(float DeltaTime)
 
 }
 
-void AMyActorTest::DemostrateFundamentals() {
-	// Operadores Aritmeticos
-	int32 sum = edad + 30;
-	float product = MyFloatVariable * 2.5f;
+//void AMyActorTest::DemostrateFundamentals() {
+	//// Operadores Aritmeticos
+	//int32 sum = edad + 30;
+	//float product = MyFloatVariable * 2.5f;
 
-	// Estructuras de Control
-	if (esInstructor) {
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, TEXT("esInstructor is true"));
-	}
-	else {
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("esInstructor is false"));
-	}
+	//// Estructuras de Control
+	//if (esInstructor) {
+	//	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, TEXT("esInstructor is true"));
+	//}
+	//else {
+	//	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("esInstructor is false"));
+	//}
 
-	// Bucles o Ciclos
-	for (int32 i = 0; i < 5; i++) {
-		FString DEbugMessage = FString::Printf(TEXT("loop interation: %d"), i);
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, DEbugMessage);
-	}
+	//// Bucles o Ciclos
+	//for (int32 i = 0; i < 5; i++) {
+	//	FString DEbugMessage = FString::Printf(TEXT("loop interation: %d"), i);
+	//	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, DEbugMessage);
+	//}
 
-	// Bucle While
-	int32 count = 0;
-	while (count < 3) {
-		FString WhileMessage = FString::Printf(TEXT("While loop iteration: %d"), count);
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, WhileMessage);
-		count++;
-	}
-}
+	//// Bucle While
+	//int32 count = 0;
+	//while (count < 3) {
+	//	FString WhileMessage = FString::Printf(TEXT("While loop iteration: %d"), count);
+	//	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, WhileMessage);
+	//	count++;
+	//}
+//}
 
