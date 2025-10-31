@@ -33,6 +33,18 @@
     <Filter Include="Source\EUCArden">
       <UniqueIdentifier>{3E773E27-509B-38EC-BBBC-D2415951F8E9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\EUCArden\AIC_NPC.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\AIC_NPC.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\BTTask_FindRandomLocation.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\BTTask_FindRandomLocation.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\Car.cpp">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
@@ -43,6 +55,12 @@
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\CarModel.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\C_NPC.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\C_NPC.h">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
     <None Include="..\..\Source\EUCArden\EUCArden.Build.cs">
