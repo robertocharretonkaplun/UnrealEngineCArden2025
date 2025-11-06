@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "BehaviorTree\BehaviorTree.h"
+#include "AIBehaviorComponent.h"
 #include "C_NPC.generated.h"
 
 UCLASS()
@@ -29,5 +30,8 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AI", meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<UAIBehaviorComponent> AIBehaviorComp;
 };
