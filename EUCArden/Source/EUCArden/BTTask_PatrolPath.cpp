@@ -14,7 +14,8 @@ UBTTask_PatrolPath::UBTTask_PatrolPath()
 	bCreateNodeInstance = true; // mantiene estado por ejecución
 }
 
-EBTNodeResult::Type UBTTask_PatrolPath::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* /*NodeMemory*/)
+EBTNodeResult::Type 
+UBTTask_PatrolPath::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* /*NodeMemory*/)
 {
 	OwnerBTWeak = &OwnerComp;
 
@@ -43,12 +44,14 @@ EBTNodeResult::Type UBTTask_PatrolPath::ExecuteTask(UBehaviorTreeComponent& Owne
 	return EBTNodeResult::InProgress;
 }
 
-void UBTTask_PatrolPath::StartCycle()
+void 
+UBTTask_PatrolPath::StartCycle()
 {
 	MoveToCurrent();
 }
 
-void UBTTask_PatrolPath::MoveToCurrent()
+void 
+UBTTask_PatrolPath::MoveToCurrent()
 {
 	// Validaciones mínimas
 	if (!AICon || Keys.Num() == 0)
@@ -91,7 +94,9 @@ void UBTTask_PatrolPath::MoveToCurrent()
 	}
 }
 
-void UBTTask_PatrolPath::HandleMoveFinished(FAIRequestID /*RequestID*/, const FPathFollowingResult& Result)
+void 
+UBTTask_PatrolPath::HandleMoveFinished(FAIRequestID /*RequestID*/, 
+																			 const FPathFollowingResult& Result)
 {
 	UBehaviorTreeComponent* BT = OwnerBTWeak.Get();
 	if (!BT) return;
@@ -130,7 +135,8 @@ void UBTTask_PatrolPath::HandleMoveFinished(FAIRequestID /*RequestID*/, const FP
 	}
 }
 
-void UBTTask_PatrolPath::OnEndWait()
+void 
+UBTTask_PatrolPath::OnEndWait()
 {
 	UBehaviorTreeComponent* BT = OwnerBTWeak.Get();
 	if (!BT) return;
@@ -151,14 +157,16 @@ void UBTTask_PatrolPath::OnEndWait()
 	MoveToCurrent();
 }
 
-EBTNodeResult::Type UBTTask_PatrolPath::AbortTask(UBehaviorTreeComponent& OwnerComp, uint8* /*NodeMemory*/)
+EBTNodeResult::Type 
+UBTTask_PatrolPath::AbortTask(UBehaviorTreeComponent& OwnerComp, uint8* /*NodeMemory*/)
 {
 	ClearDelegatesAndTimers();
 	if (AICon) AICon->StopMovement();
 	return EBTNodeResult::Aborted;
 }
 
-void UBTTask_PatrolPath::ClearDelegatesAndTimers()
+void 
+UBTTask_PatrolPath::ClearDelegatesAndTimers()
 {
 	if (AICon)
 	{
