@@ -33,6 +33,12 @@
     <Filter Include="Source\EUCArden">
       <UniqueIdentifier>{3E773E27-509B-38EC-BBBC-D2415951F8E9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\EUCArden\AIBehaviorComponent.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\AIBehaviorComponent.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\AIC_NPC.cpp">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
@@ -82,6 +88,12 @@
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\MyCharacterInput.h">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\PathModule.cpp">
+      <Filter>Source\EUCArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EUCArden\PathModule.h">
       <Filter>Source\EUCArden</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\EUCArden\PlatformActor.cpp">

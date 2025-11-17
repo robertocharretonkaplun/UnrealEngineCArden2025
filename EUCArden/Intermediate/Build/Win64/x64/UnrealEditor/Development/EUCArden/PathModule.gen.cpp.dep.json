@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\sebastian\\documents\\github\\unrealenginecardenprof\\eucarden\\intermediate\\build\\win64\\unrealeditor\\inc\\eucarden\\uht\\pathmodule.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\sebastian\\documents\\github\\unrealenginecardenprof\\eucarden\\intermediate\\build\\win64\\x64\\eucardeneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\sebastian\\documents\\github\\unrealenginecardenprof\\eucarden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eucarden\\definitions.eucarden.h",
+            "c:\\users\\sebastian\\documents\\github\\unrealenginecardenprof\\eucarden\\source\\eucarden\\pathmodule.h",
+            "c:\\users\\sebastian\\documents\\github\\unrealenginecardenprof\\eucarden\\intermediate\\build\\win64\\unrealeditor\\inc\\eucarden\\uht\\pathmodule.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
