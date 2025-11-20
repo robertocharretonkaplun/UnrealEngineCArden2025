@@ -40,4 +40,12 @@ public:
 	bool bIsElectric;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle")
 	FColor VehicleColor;
+
+
+	TArray<int32> Passengers;
+	TMap<FString, float> Cargo;
+	TSet<FString> Features;
+
+	void InitializeVehicle();
+	void print();
 };
